@@ -193,7 +193,7 @@ local function updateUI()
         end
     end
     table.sort(sorted, function(a, b) return a.data.amount > b.data.amount end)
-[18.10.2026 18:15] skript_10: for i, egg in ipairs(sorted) do
+        for i, egg in ipairs(sorted) do
         -- Рядок яйца (как на скрине)
         local row = Instance.new("Frame")
         row.Size = UDim2.new(1, 0, 0, 55)
